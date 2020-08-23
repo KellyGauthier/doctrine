@@ -55,7 +55,7 @@ final class CurrentUserExtension implements QueryCollectionExtensionInterface, Q
 
 L'extension Doctrine s'appuie également sur l'autoconfiguration qui se trouve dans le fichier _service.yaml_. L'autoconfiguration enregistre tous les services automatiquement.
 
-#Le polymorphisme
+# Le polymorphisme
 
 Le polymorphisme est le fait de pouvoir implémenter des interfaces. Et chaque implémentation peut être personnalisée.
 
