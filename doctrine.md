@@ -1,6 +1,6 @@
 # Extensions Doctrine dans API Platform
 
-Une extension dans Doctrine est une interface. C'est à dire un contrat d'implémentation qui définit des méthodes vides.
+Une extension dans Doctrine est une classe qui implémente une ou plusieurs interfaces. C'est à dire un contrat d'implémentation qui définit des méthodes vides.
 
 Dans le cadre d'API Platform, cela permet d'étendre les requêtes sur des éléments ou des collections.
 Pour cela, une extension implémente nécessairement un **QueryItemExtensionInterface** ou un **QueryCollectionExtensionInterface** ou les deux. Tout dépend de notre besoin.
@@ -61,5 +61,5 @@ Le polymorphisme est le fait de pouvoir implémenter des interfaces. Et chaque i
 
 # Les interfaces
 
-Une interface est une classe qui va définir un plan, c'est à dire des signatures de méthodes. Elle sera ensuite implémenter. 
-Les classes héritants des interfaces doivent forcément cotenir les méthodes définies dans l'interface.
+Une interface est une classe qui va définir un plan, c'est à dire des signatures de méthodes. Elle sera ensuite implémentée. 
+Les classes implémentants des interfaces doivent forcément impléménter les méthodes définies dans l'interface.
